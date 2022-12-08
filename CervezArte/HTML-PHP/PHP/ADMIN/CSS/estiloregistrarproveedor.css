@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'JostBold';
+    src: url('../../../FuenteSitioWeb/Jost-Bold.ttf') format('truetype');
+}
+
+* {
+    font-family: 'JostBold', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    background-color: #534D4D;
+}
+
+.datosregistrar {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 3%;
+    background-color: #ffb46f;
+    width: 36%;
+    padding: 30px;
+    border: 3px white solid;
+    border-radius: 10px;
+}
+
+.datosregistrar table {
+    display: flex;
+    margin: 0 auto;
+}
+
+.datosregistrar h1 {
+    color: white;
+    text-shadow: -2px -2px 1px #534D4D;
+}
+
+.datosregistrar label {
+    color: white;
+    text-shadow: -2px -2px 1px #534D4D;
+}
+
+.datosregistrar input, .datosregistrar select {
+    margin-bottom: 20px;
+    border: 2px #534D4D solid;
+    box-shadow: 3px 3px 0px #534D4D;
+    width: 200px;
+}
+
+.datosregistrar input::-webkit-inner-spin-button,.datosregistrar input::-webkit-outer-spin-button {
+    appearance: none;
+    margin: 0 auto;
+}
+
+.datosregistrar a {
+    margin: 0 auto;
+    width: 230px;
+}
+
+.datosregistrar button {
+    border: 3px white solid;
+    color: white;
+    background-color: #534D4D;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.datosregistrar button:hover {
+    border-color: #534D4D;
+    color: #534D4D;
+    background-color: white;
+}
+
+.registrar {
+    width: 200px;
+}

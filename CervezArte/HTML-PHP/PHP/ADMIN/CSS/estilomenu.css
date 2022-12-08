@@ -1,0 +1,98 @@
+@font-face {
+    font-family: 'JostBold';
+    src: url('../../../FuenteSitioWeb/Jost-Bold.ttf') format('truetype');
+}
+
+* {
+    font-family: 'JostBold', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    background-color: #534D4D;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 6%;
+}
+
+.lista {
+    border: 3px #ffb46f solid;
+    background-color: white;
+    width: 18%;
+    height: 18%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.lista h1 {
+    color: #534D4D;
+    text-shadow: 2px 1px 3px #ffb46f;
+}
+
+.lista p, ol {
+    color: #534D4D;
+    text-shadow: 2px 1px 3px #ffb46f;
+}
+
+.menu {
+    margin-left: 8%;
+    margin-right: 28%;
+    background-color: #ffb46f;
+    width: 30%;
+    padding: 50px;
+    border: 3px white solid;
+    border-radius: 10px;
+}
+
+.menu h1 {
+    color: white;
+    text-shadow: -2px -2px 1px #534D4D;
+}
+
+.menu a {
+    height: 38px;
+    width: 400px;
+}
+
+.menu button {
+    border: 3px white solid;
+    color: white;
+    background-color: #534D4D;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 5px;
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+.menu button:hover {
+    border-color: #534D4D;
+    color: #534D4D;
+    background-color: white;
+}
+
+.cerrarsesion {
+    margin-top: 30px;
+    margin-bottom: 0 !important;
+}
+
+.sesioniniciada {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    background-color: white;
+    width: 80%;
+    border: 3px #534D4D solid;
+    border-radius: 5px;
+}
+
+.sesioniniciada h2 {
+    color: #534D4D;
+    text-shadow: -2px -2px 1px #ffb46f;
+}

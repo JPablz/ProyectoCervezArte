@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'JostBold';
+    src: url('../HTML-PHP/FuenteSitioWeb/Jost-Bold.ttf') format('truetype');
+}
+
+* {
+    font-family: 'JostBold','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    background-color: #534D4D;
+}
+
+.datosregistrar {
+    display: flex;
+    justify-content: center;
+}
+
+.datosregistrar form {
+    background-color: #ffb46f;
+    padding: 50px;
+    margin-top: 6%;
+    border: 3px white solid;
+    border-radius: 10px;
+}
+
+.datosregistrar table td {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.datosregistrar label {
+    color: white;
+    text-shadow: -2px -2px 1px #534D4D;
+}
+
+.datosregistrar input {
+    border-radius: 10px;
+    box-shadow: 3px 3px 0px #534D4D;
+}
+
+.datosregistrar input[type="file"] {
+    border-radius: 0px;
+}
+
+.datosregistrar select {
+    border-radius: 10px;
+    box-shadow: 3px 3px 0px #534D4D;
+}
+
+.datosregistrar textarea {
+    border-radius: 10px;
+    box-shadow: 3px 3px 0px #534D4D;
+}
+
+.datosregistrar button {
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: #534D4D;
+    border: 2px white solid;
+}
+
+.datosregistrar button:hover {
+    background-color: white;
+    color: #534D4D;
+    border-color: red;
+}
+
+.datosregistrar button:active {
+    background-color: red;
+    color: white;
+    border-color: white;
+}

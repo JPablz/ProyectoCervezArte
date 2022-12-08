@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'JostBold';
+    src: url('../../../FuenteSitioWeb/Jost-Bold.ttf') format('truetype');
+}
+
+* {
+    font-family: 'JostBold', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    background-color: #534D4D;
+}
+
+h1 {
+    color: white;
+    text-shadow: 2px 2px 1px #ffb46f;
+    font-size: 30px;
+}
+
+.datos table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 90%;
+}
+
+.datos table th {
+    color: white;
+    text-shadow: 2px 2px 1px #534D4D;
+    background-color: #ffb46f;
+    padding: 5px;
+    border: 3px white solid;
+    border-bottom-color: #534D4D;
+    font-size: 17px;
+}
+
+.datos table tbody {
+    background-color: white;
+    border: 3px #ffb46f solid;
+}
+
+.datos table tbody tr {
+    border-bottom: 2px #534D4D solid;
+}
+
+.datos table tbody td {
+    padding: 8px;
+}
+
+.datos a {
+    display: flex;
+    justify-content: right;
+    text-decoration: none;
+}
+
+.datos button {
+    border: 3px white solid;
+    color: white;
+    background-color: #ffb46f;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.datos button:hover {
+    border-color: #ffb46f;
+    color: #ffb46f;
+    background-color: white;
+}
+
+.datos table tbody a {
+    display: table-cell;
+}
+
+.datos table tbody button {
+    margin: 0 auto;
+}

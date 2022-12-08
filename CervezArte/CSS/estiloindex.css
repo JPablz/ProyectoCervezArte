@@ -1,0 +1,323 @@
+@font-face {
+    font-family: 'JostBold';
+    src: url('../HTML-PHP/FuenteSitioWeb/Jost-Bold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+body {
+    margin: 0;
+    max-width: 100%;
+    background-color: #534D4D;
+}
+
+header {
+    background-color:#ffb46f;
+    border-bottom: 3px white solid;
+    padding: 20px;
+    height: 250px;
+    box-sizing: content-box;
+}
+
+.LogoCervezArteHV {
+    margin-left: 75px;
+}
+
+.LogoCervezArte {
+    border: 4px #534D4D solid;
+    border-radius: 10px;
+    height: 180px;
+}
+
+.LogoCervezArte2 {
+    display: none;
+}
+
+.menu {
+    display: flex;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+.navegacion {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu button {
+    background-color: #534D4D;
+    color: white;
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    font-family: 'JostBold', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 5px;
+    cursor: pointer;
+    border: 3px white solid;
+}
+
+.menu button:hover {
+    background-color: white;
+    color: #534D4D;
+    border: 3px #534D4D solid;
+}
+
+#iniciarsesion {
+    border-right: none;
+}
+
+#iniciarsesion:hover {
+    border-right: 3px #534D4D solid;
+}
+    
+#registrarse {
+    border-right: none;
+    border-left: none;
+}
+
+#registrarse:hover {
+    border-right: 3px #534D4D solid;
+    border-left: 3px #534D4D solid;
+}
+    
+#ayuda {
+    border-right: none;
+    border-left: none;
+    width: 110px;
+}
+
+#ayuda:hover {
+    border-right: 3px #534D4D solid;
+    border-left: 3px #534D4D solid;
+}
+
+#sobrenosotros {
+    border-left: none;
+}
+
+#sobrenosotros:hover {
+    border-left: 3px #534D4D solid;
+}
+
+.barradebusqueda input {
+    display: block;
+    width: 240px;
+    height: 22px;
+    padding: 0 20px;
+    font-size: 14px;
+    font-family: 'JostBold', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    border: 2px #534D4D solid;
+    border-radius: 30px;
+    margin-top: 25px;
+    margin-right: 50px;
+}
+
+.btn {
+    background-color: #534D4D;
+    width: 28px;
+    height: 28px;
+    color: white;
+    font-size: 15px;
+    border: 2px white solid;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    top: -28px;
+    right: -258px;
+    box-sizing: border-box;
+}
+
+.btn:hover {
+    background-color: white;
+    color: #534D4D;
+    border: 1px red solid;
+}
+
+.ui.container {
+    width: auto;
+    margin: 20px !important;
+}
+
+.carrito {
+    position: sticky;
+    top: 0px;
+}
+
+.carrito button {
+    background-color: white;
+    padding: 5px;
+    border: 3px #ffb46f solid;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.carrito img {
+    height: 50px;
+}
+
+.carrito a {
+    width: 2%;
+}
+
+.content h1 {
+    text-align: center;
+}
+
+footer {
+    background-color: #ffb46f;
+    font-family:'JostBold','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+    padding: 20px;
+    height: 200px;
+    border-top: 3px white solid;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10%;
+}
+
+footer article {
+    background-color: #534D4D;
+    padding: 25px;
+    border-radius: 10px;
+    border: 5px white solid;
+    box-shadow: 4px 4px 4px gray;
+}
+
+footer article h1 {
+    font-family:'JostBold','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+    text-shadow: 2px 2px 2px #ffb46f;
+}
+
+@media screen and (max-width:1160px) {
+    header {
+        height: auto;
+        flex-direction: column;
+    }
+    .LogoCervezArte {
+        display: flex;
+        margin: 0 auto;
+        margin-bottom: 2px;
+    }
+    .menu {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .navegacion {
+        flex-direction: column;
+    }
+    .barradebusqueda {
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    .barradebusqueda input {
+        margin: 0 auto;
+    }
+    footer {
+        width: auto;
+        height: auto;
+        flex-direction: column;
+    }
+    .contacto {
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .redes {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width:760px) {
+    .LogoCervezArte {
+        display: none;
+    }
+    .LogoCervezArte2 {
+        display: flex;
+        margin: 0 auto;
+        border: 4px #534D4D solid;
+        border-radius: 10px;
+        height: 250px;
+    }
+    .menu {
+        margin-top: 20px;
+    }
+    .linea1, .linea2 {
+        flex-direction: column;
+    }
+    .producto {
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width:620px) {
+    .menu {
+        flex-direction: column;
+    }
+    .menu button {
+        width: 150px !important;
+        border: none !important;
+    }
+    #iniciarsesion:hover, #registrarse:hover, #ayuda:hover, #sobrenosotros:hover {
+        border: 3px #534D4D solid !important;
+    }
+    #iniciarsesion {
+        border: 3px white solid !important;
+        border-bottom: none !important;
+    }
+    #registrarse, #ayuda {
+        border-right: 3px white solid !important;
+        border-left: 3px white solid !important;
+    }
+    #sobrenosotros {
+        border: 3px white solid !important;
+        border-top: none !important;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .linea1, .linea2 {
+        margin: 0 auto;
+        padding: 0;
+    }
+    .producto {
+        width: 82%;
+    }
+    .contacto {
+        padding: 0;
+        width: 180px;
+        font-size: 11px;
+    }
+    .redes {
+        padding: 0;
+        width: 180px;
+    }
+}
+
+@media screen and (max-width:330px) {
+    .navegacion form {
+        width: 100%;
+    }
+    .barradebusqueda input {
+        width: 80%;
+    }
+    .btn {
+        right: -90%;
+    }
+}
+
+@media screen and (max-width:250px) {
+    .LogoCervezArte2 {
+        width: 145px;
+        height: 180px;
+    }
+}
+
+@media screen and (max-width:205px) {
+    .btn {
+        right: -95%;
+    }
+}
